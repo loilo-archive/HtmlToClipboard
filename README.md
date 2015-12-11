@@ -6,7 +6,7 @@ It copies html code (custom or from current selection) to your clipboard as rich
 
 ## How do I use it?
 Create a new instance of the `HtmlToClipboard` object with some settings:
-```
+```html
 <script>
 var copyer = new HtmlToClipboard({
     listenOnCopy: true
@@ -39,7 +39,7 @@ Can be a selector string or an `HTMLElement` instance. If the code to be copied 
 #### Example:
 
 HTML:
-```
+```html
 <script>
 var copyer = new HtmlToClipboard({
     limitTarget: ".yes"
