@@ -19,7 +19,7 @@ If you now select the text in the textarea and press `Ctrl + C / ⌘ + C`, the f
 This is some **formatted** text.
 
 ## Methods
-`.copy([ data ])`
+### `.copy([ data ])`
 
 You might call the `copy` method on your initialized `copyer` to copy text to your clipboard.
 If you don't provide any `data`, this is automatically fetched from your current selection.
